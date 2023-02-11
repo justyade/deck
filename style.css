@@ -1,0 +1,49 @@
+#titles{
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding: 0;
+    margin: 0;
+    color: black;
+    background-color: bisque;
+    transition: background-color 300ms;
+    padding:1em;
+}
+li:hover{
+    background-color: rgb(187, 137, 62);
+}
+.navbar {
+    border: red 1px solid;
+    width:10em;
+    float: left;
+    height:40em;
+         
+}
+.cards{
+    margin-left: 500px;
+    text-align: center!important;
+}
+.cardtexts{
+    border: 3px red solid;
+    width: 500px;
+    height: 600px;
+}
+.card{
+    position: absolute;
+    mask-origin: 40% 0%;
+    margin-left: 10px;
+    border: purple 3px solid ;
+    border-radius: 20px;
+    background-color:ghostwhite; 
+    width: 125px;
+    height: 175px;
+    float: left;
+    transform-origin: 50% 100%;
+    transition: margin-top 700ms, background-color 50ms;
+}
+.card:hover{
+    background-color:rgb(201, 201, 207); 
+    margin-top: -100px;
+}
