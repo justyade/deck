@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(255, 246, 240);
+    height: 1000px;
+    margin: 0px;
+}
+
+.giris{
+    
+    height: 1060px;
+}
+
+#bilgi {
+    width: 700px;
+    height: 250px;
+    margin: auto;
+    position: relative;
+    top: 70px;
+}
+
+#pp {
+    float: left;
+    height: 200px;
+}
+
+#job {
+    color: #6B6B6B;
+    position: absolute;
+    left: 200px;
+    top: 40px;
+    font-size: 40px;
+}
+
+#name {
+    position: absolute;
+    font-size: 75px;
+    top: -50px;
+    left: 200px;
+}
+
+
+
+
+.cards {
+    position: relative;
+    margin: auto;
+    height: 500px;
+    width: 400px;
+    top: 200px;
+}
+
+.card {
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgb(235, 226, 221);
+    width: 350px;
+    height: 500px;
+    transform-origin: 50% 100%;
+    transition: margin-top 700ms, background-color 50ms;
+    box-shadow: 5px 5px 5px 5px brown;
+}
+
+.card:hover {
+    background-color: rgb(201, 192, 187);
+    margin-top: -100px;
+}
+
+
+
+.guncel{
+    height: 40px;
+    background-color: darkred;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+.blog{
+    height: inherit;
+    width: 1860px;
+    margin: auto;
+}
+
+.icerik {
+    width: 600px;
+    height: 700px;
+    box-shadow: 3px 3px 3px 3px brown;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#foto{
+    width: 300px;
+    margin-left: 140px;
+}
+
+h2{
+    margin: 5px;
+}
+
+#tarih{
+    color: #6B6B6B;
+    margin: 5px;
+}
