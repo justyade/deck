@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    background-color: rgb(255, 246, 240);
+    height: 700px;
+}
+
+.banner{
+    background-color:  rgb(255, 253, 251);
+    height: 190px;
+}
+
+.info{
+    position: relative;
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+    top: 10px;
+}
+
+#pp {
+    float: left;
+    height: 170px;
+    position: absolute;
+}
+
+#name {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    font-size: 70px;
+    top: -60px;
+    left: 200px;
+}
+
+#job {
+    font-family: 'Roboto', sans-serif;
+    color: #6B6B6B;
+    position: absolute;
+    left: 200px;
+    top: 30px;
+    font-size: 30px;
+}
+
+.content{
+    width: 1000px;
+    float: left;
+}
+
+.main{
+    position: relative;
+    margin-left: 450px;
+    height:inherit;
+    top: 50px;
+}
+
+.content{
+    position: absolute;
+}
+
+.head{
+    border-bottom: 1px solid black;
+    border-bottom-width: thin;
+}
+
+#header{
+    font-family: 'Roboto', sans-serif;
+}
+
+span{
+    font-family: 'Roboto', sans-serif;
+    color: #6B6B6B; 
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.eklenen{
+    position: absolute;
+    margin: 25px;
+    width: 300px;
+    float: left;
+    background-color: rgb(201, 192, 187);
+    left: 1100px;
+}
+
+h4{
+    margin: 0px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}

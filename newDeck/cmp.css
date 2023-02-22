@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(255, 246, 240);
+    height: 5000px;
+    width: auto;
+}
+
+.main{
+    width: 700px;
+    margin: auto;
+}
+
+h1{
+    width: 700px;
+}
+
+input{
+    border-color: brown;
+}
+
+textarea{
+    background-color: rgb(201, 192, 187);
+    border:none;
+    border-radius: 5px;
+    width: 695px;
+    margin-right: 5px;
+    overflow: auto;
+}
+
+form{
+    width: 700px;
+    margin: auto;
+}
+
+.content{
+    background-color: rgb(235, 226, 221);
+    width: 700px;
+    padding: 5px;
+    margin: auto;
+}
+
+#img{
+    display: block;
+    max-width: 300px;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    width: 700px;
+}
